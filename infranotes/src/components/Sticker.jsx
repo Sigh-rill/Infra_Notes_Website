@@ -35,7 +35,7 @@ return (
         width: '100px',
         height: '100px',
         backgroundColor: 'lightblue',
-        cursor: isDragging ? 'grabbing' : 'grab',
+        cursor: moving ? 'grabbing' : 'grab',
       }}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
